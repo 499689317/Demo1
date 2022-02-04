@@ -1,0 +1,39 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/dehumeng/Documents/PlatformIO/Projects/Demo1/include",
+                "/Users/dehumeng/Documents/PlatformIO/Projects/Demo1/src",
+                "/Users/dehumeng/.platformio/packages/toolchain-sdcc/share/sdcc/include",
+                "/Users/dehumeng/.platformio/packages/toolchain-sdcc/share/sdcc/include/mcs51",
+                "/Users/dehumeng/.platformio/platforms/intel_mcs51/examples/stc-header/src"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/dehumeng/Documents/PlatformIO/Projects/Demo1/include",
+                    "/Users/dehumeng/Documents/PlatformIO/Projects/Demo1/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=11059200",
+                "HEAP_SIZE=128",
+                "PLATFORMIO=50204",
+                ""
+            ],
+            "compilerPath": "/Users/dehumeng/.platformio/packages/toolchain-sdcc/bin/sdcc",
+            "compilerArgs": [
+                "-mmcs51",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
