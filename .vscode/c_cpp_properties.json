@@ -10,9 +10,7 @@
             "includePath": [
                 "/Users/dehumeng/Documents/PlatformIO/Projects/Demo1/include",
                 "/Users/dehumeng/Documents/PlatformIO/Projects/Demo1/src",
-                "/Users/dehumeng/.platformio/packages/toolchain-sdcc/share/sdcc/include",
-                "/Users/dehumeng/.platformio/packages/toolchain-sdcc/share/sdcc/include/mcs51",
-                "/Users/dehumeng/.platformio/platforms/intel_mcs51/examples/stc-header/src"
+                ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
@@ -25,7 +23,7 @@
             "defines": [
                 "F_CPU=11059200",
                 "HEAP_SIZE=128",
-                "PLATFORMIO=50204",
+                "PLATFORMIO=50205",
                 ""
             ],
             "compilerPath": "/Users/dehumeng/.platformio/packages/toolchain-sdcc/bin/sdcc",
